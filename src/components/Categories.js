@@ -1,3 +1,4 @@
+import '../App.css'
 import Celulares from '../assets/celulares.webp'
 import Heladeras from '../assets/heladeras.webp'
 import Lavarropas from '../assets/lavarropas.webp'
@@ -6,19 +7,19 @@ import TV from '../assets/tv.webp'
 const Categories = () => {
     return(
         <div>
-            <button>
+            <button className='Icon'>
                 <img src={Celulares} alt="celulares"/>
             </button>
-            <button>
+            <button className='Icon'>
                 <img src={Heladeras} alt="heladeras"/>
             </button>
-            <button>
+            <button className='Icon'>
                 <img src={Lavarropas} alt="lavarropas"/>
             </button>
-            <button>
+            <button className='Icon'>
                 <img src={Notebooks} alt="notebooks"/>
             </button>
-            <button>
+            <button className='Icon'>
                 <img src={TV} alt="televisores"/>
             </button>
         </div>

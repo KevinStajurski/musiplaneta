@@ -5,9 +5,9 @@ import ItemListContainer from './components/ItemListContainer'
 
 function App() {
   return (
-    <div className="App">
+    <div className='Main'>
       <NavBar/>
-      <ItemListContainer greeting={"Bienvenido a Musiplaneta!"}/>
+      <ItemListContainer className="Container" greeting={"Bienvenido a Musiplaneta!"}/>
     </div>
   )
 }

@@ -1,7 +1,8 @@
+import '../App.css'
 const ItemListContainer = ({greeting}) => {
     return(
         <div>
-            <p>{greeting}</p>
+            <p className='Greeting'>{greeting}</p>
         </div>
     )
 }

@@ -1,12 +1,12 @@
+import '../App.css'
 import Categories from './Categories'
 import CartWidget from './CartWidget'
 const NavBar = () => {
     return(
-        <><div>
+        <div className='NavBar'>
             <Categories/>
-        </div><div>
-                <CartWidget />
-            </div></>
+            <CartWidget/>
+        </div>
     )
 }
 
