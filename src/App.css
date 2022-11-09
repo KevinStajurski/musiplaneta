@@ -11,8 +11,15 @@
 .NavBar {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: #e9e9ed;
 }
 
 .Icon {
   margin: 1rem;
+}
+
+.Logo {
+  width: 200px;
+  height: 24px;
 }
