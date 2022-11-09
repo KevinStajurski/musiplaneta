@@ -1,6 +1,6 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import './App.css'
+import NavBar from './components/NavBar'
+import ItemListContainer from './components/ItemListContainer'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <NavBar/>
       <ItemListContainer greeting={"Bienvenido a Musiplaneta!"}/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,9 +1,12 @@
+import Categories from './Categories'
 import CartWidget from './CartWidget'
 const NavBar = () => {
     return(
-        <div>
-            <CartWidget/>
-        </div>
+        <><div>
+            <Categories/>
+        </div><div>
+                <CartWidget />
+            </div></>
     )
 }
 
