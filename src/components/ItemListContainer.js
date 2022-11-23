@@ -1,16 +1,16 @@
 import '../App.css'
 import ItemList from './ItemList'
 import {getProducts} from "../data/products"
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState,useEffect } from 'react';
 
-const [products, setProducts] = useState([]);
-useEffect(() => {
-    getProducts().then((products) => {
-    setProducts;
-    });
-}, [])
 const ItemListContainer = () => {
+    const [products, setProducts] = useState([]);
+    useEffect(() => {
+        getProducts().then((products) => {
+        setProducts(products);
+        });
+    }, [])
+
     return(
         <div>
             <ItemList products={products}/>
