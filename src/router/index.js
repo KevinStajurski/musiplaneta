@@ -15,5 +15,5 @@ export const router = createBrowserRouter([
     {
         path: "/item/:id",
         element: <ItemView />,
-    },
+    }
 ])
