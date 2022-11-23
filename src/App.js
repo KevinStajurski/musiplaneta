@@ -3,7 +3,7 @@ import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
 
 
-function App() {
+export function App() {
   return (
     <div className='Main'>
       <NavBar/>
@@ -11,5 +11,3 @@ function App() {
     </div>
   )
 }
-
-export default App
