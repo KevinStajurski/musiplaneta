@@ -71,9 +71,7 @@ const products = [
     }
 ]
 
-// creamos la función
 export const getProducts = () => {
-    // retornamos una nueva promesa con los productos, simulando una demora de 2 segundos
     return new Promise((res) => {
         setTimeout(() => {
             res(products);
