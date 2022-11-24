@@ -4,24 +4,25 @@ import Heladeras from '../assets/heladeras.webp'
 import Lavarropas from '../assets/lavarropas.webp'
 import Notebooks from '../assets/notebooks.webp'
 import TV from '../assets/tv.webp'
+import {Link} from "react-router-dom"
 const Categories = () => {
     return(
         <div>
-            <button className='Icon'>
+            <Link to="/category/celulares" className='Icon'>
                 <img src={Celulares} alt="celulares"/>
-            </button>
-            <button className='Icon'>
+            </Link>
+            <Link to="/category/heladeras" className='Icon'>
                 <img src={Heladeras} alt="heladeras"/>
-            </button>
-            <button className='Icon'>
+            </Link>
+            <Link to="/category/lavarropas" className='Icon'>
                 <img src={Lavarropas} alt="lavarropas"/>
-            </button>
-            <button className='Icon'>
+            </Link>
+            <Link to="/category/notebooks" className='Icon'>
                 <img src={Notebooks} alt="notebooks"/>
-            </button>
-            <button className='Icon'>
+            </Link>
+            <Link to="/category/televisores" className='Icon'>
                 <img src={TV} alt="televisores"/>
-            </button>
+            </Link>
         </div>
     )
 }

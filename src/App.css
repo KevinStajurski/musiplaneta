@@ -27,6 +27,7 @@
 .divProd {
   display: inline-block;
   margin: 2rem;
+  padding: 1rem;
   background-color: white;
 }
 
