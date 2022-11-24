@@ -50,14 +50,14 @@ const products = [
     "id": "4"
     },
     {
-    "marca": "STANDARD ELECTRIC",
-    "modelo": "2F1200/B",
-    "precio": 84999,
-    "stock": 61,
-    "img": "https://medias.musimundo.com/medias/00560071-146536-146536-01-146536-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w2MDgzfGltYWdlL2pwZWd8aDA3L2g3NS8xMDM5MzQ5MjI5MTYxNC8wMDU2MDA3MS0xNDY1MzYtMTQ2NTM2XzAxLTE0NjUzNl8wMS5qcGdfc2l6ZTUxNXwyN2NiZDNhYzJiMjkxMzExODhkNDI1NTNjYzUyMGEyMjliYTBjMzQ1NTQ4ZDFmNTEyZjA4M2U3ZjE1MmI2NWU5",
-    "descripcion": "Sistema Skin Condenser capacidad util total 237 lts volumen util refrigerador 177lts volumen util freezer 60lts potencia motor 1/5HP eficiencia energetica A freezer independiente con estante div isor descongelamiento automatico luz interior.",
+    "marca": "Patrick",
+    "modelo": "HPK151M11S",
+    "precio": 158999,
+    "stock": 10,
+    "img": "https://medias.musimundo.com/medias/00170002-177118-177118-01.png-177118-01.png-size515?context=bWFzdGVyfGltYWdlc3wyNzE4NDd8aW1hZ2UvcG5nfGhkNC9oZjMvMTAzODA2NjEzMjU4NTQvMDAxNzAwMDItMTc3MTE4LTE3NzExOF8wMS5wbmctMTc3MTE4XzAxLnBuZ19zaXplNTE1fGNiZTNjMmEyMGQwYjI5OWY0MWNiOTQ0NjgzNmNmOWYwYTI2MDMyYzNlMGU4NDVkYjEyNjEzNDllNDUwN2Y0MWM",
+    "descripcion": "Eficiencia energética A. Heladera con freezer Cycle Defrost. Dispenser de agua con 2 litros de capacidad. Capacidad bruta de 394 L. Estantes regulables en altura en freezer y refrigerador. Anaqueles en contrapuerta para botellas y alimentos regulables en altura. Luz interior LED.",
     "categoria": "heladeras",
-    "id": "8"
+    "id": "5"
     },
     {
     "marca": "Gafa",
@@ -66,6 +66,36 @@ const products = [
     "stock": 73,
     "img": "https://medias.musimundo.com/medias/00173000-174258-174258-01.png-174258-01.png-size515?context=bWFzdGVyfGltYWdlc3wyNDExNjN8aW1hZ2UvcG5nfGg2Ni9oZDYvMTAzNzg4NjU2Mzk0NTQvMDAxNzMwMDAtMTc0MjU4LTE3NDI1OF8wMS5wbmctMTc0MjU4XzAxLnBuZ19zaXplNTE1fDBjYzQzNTQ3NGFlYmE3NThkZDE3MWY1Yzc4YzhiMzhjZGE5MGM2MjFlNzkxYTcxZmU0YTEwY2ExMGVlNmI1NWQ",
     "descripcion": "Heladera con freezer. capacidad de almacenamiento de 282lts. Puertas con manija embutida. Estantes de altura regulable. Anaqueles desmontables. Sistema descongelamiento automático. Temperatura regula ble. EE: A.",
+    "categoria": "heladeras",
+    "id": "6"
+    },
+    {
+    "marca": "BGH",
+    "modelo": "B3219K5",
+    "precio": 39999,
+    "stock": 12,
+    "img": "https://medias.musimundo.com/medias/00242038-138228-138228-01-138228-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w2MDQ2OXxpbWFnZS9qcGVnfGg0ZC9oNjYvMTA0MzQwMTU1OTI0NzgvMDAyNDIwMzgtMTM4MjI4LTEzODIyOF8wMS0xMzgyMjhfMDEuanBnX3NpemU1MTV8MjM4MDA2ZDI4YThhYTEzZjRlMjYxMmZmOWZmN2Q3MTM1YzE5Y2E4ODNkMmY3NDE1YmE1NzA4NmMwOTdlNTc1ZQ",
+    "descripcion": "TV Smart. 32 HD. Resolucion 1366 x 768. Procesador Quad Core. HDMI. WI Fi. USB. Sintonizador TDA. Entradas posteriores de video compuesto y audio analogico. Salida de auriculares. Salida de audio optica. Cuenta con Netflix, YouTube.",
+    "categoria": "televisores",
+    "id": "7"
+    },
+    {
+    "marca": "Motorola",
+    "modelo": " MT32Y001A1B",
+    "precio": 53999,
+    "stock": 2,
+    "img": "https://medias.musimundo.com/medias/00557002-146374-146374-01-146374-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w4NzE4MHxpbWFnZS9qcGVnfGgwNS9oNTIvMTAzODY4NzE3MTM4MjIvMDA1NTcwMDItMTQ2Mzc0LTE0NjM3NF8wMS0xNDYzNzRfMDEuanBnX3NpemU1MTV8MmQ3MDAzOTYyM2ViMmVkMDY0ZjQ2NzdiZjc5MzIwZjVkMjUwZTc2YzY2YjNjYjQ2OTA3YWJkZjQ4NDYyODFmMQ",
+    "descripcion": "TV led smart de 32 .Resolucion 1366x768. Cuenta con dos puertos USB y dos puertos HDMI. Sintonizador TDA. Frecuencia de barrido 50HZ/60HZ. Potencia de parlantes 8w RMS (x2). WiFi . Medidas con base 45,6x72,07x16,54 cm",
+    "categoria": "televisores",
+    "id": "8"
+    },
+    {
+    "marca": "Samsung",
+    "modelo": " RT32K5070S8",
+    "precio": 189999,
+    "stock": 20,
+    "img": "https://medias.musimundo.com/medias/00230124-177724-177724-01.png-177724-01.png-size515?context=bWFzdGVyfGltYWdlc3wxMDEzOTR8aW1hZ2UvcG5nfGg1ZC9oOWMvMTA0MzM5NjY3MDI2MjIvMDAyMzAxMjQtMTc3NzI0LTE3NzcyNF8wMS5wbmctMTc3NzI0XzAxLnBuZ19zaXplNTE1fGRmMzFlZjYyNTRlZjM2ZTgzZGMzOTYxMDBiNmNkMmU0NGM2ZWQ1ODY2M2JmNzc0MjRmYmI0YzNkYWU0ZDQxOWE",
+    "descripcion": "No Frost. Capacidad 321 lts. Freezer superior. Tecnologia Twin Cooling Plus. Tecnologia Digital Inverter. Power Freeze y Power Cool. Iluminacion interna LED. Estante de vidrio templado.EE: A+",
     "categoria": "heladeras",
     "id": "9"
     }
