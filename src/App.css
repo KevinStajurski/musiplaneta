@@ -1,0 +1,40 @@
+.Main {
+  background-color: #808080;
+  height: 100vh;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e9e9ed;
+}
+
+.Icon {
+  margin: 1rem;
+  background-color: #808080;
+}
+
+.Logo {
+  width: 200px;
+  height: 24px;
+}
+
+.imgProd {
+  width: 10rem;
+}
+
+.divProd {
+  display: inline-block;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.ul {
+  list-style: none;
+}
+
+.li {
+  text-align: center;
+}
