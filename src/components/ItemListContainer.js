@@ -1,4 +1,4 @@
-import '../App.css'
+import '../App.css' 
 import ItemList from './ItemList'
 import {getProducts} from "../data/products"
 import { useState,useEffect } from 'react';
