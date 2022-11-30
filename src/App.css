@@ -1,6 +1,7 @@
 .Main {
   background-color: #808080;
   height: 100vh;
+  overflow:scroll;
 }
 
 .NavBar {
