@@ -16,9 +16,11 @@ const ItemDetail = ({producto}) => {
     }
 
     return(
-        <div className="divProd">
+        <div className="detalleProducto">
             <img className="imgProd" src={producto.img} alt=""/>
-            <li className="li">'{producto.marca}<br/>{producto.modelo}<br/> ${producto.precio}<br/> {producto.descripcion}'</li>
+            <h1 className="nombreProducto">{producto.marca} {producto.modelo}</h1>
+            <h2>$ {producto.precio}</h2>
+            <span>{producto.descripcion}</span>
             <ItemCount count={count} handleCount={handleCount} handleAdd={handleAdd}/>
         </div>
     )

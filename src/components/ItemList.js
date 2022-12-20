@@ -2,11 +2,11 @@ import Item from "./Item";
 
 const ItemList = ({products}) => {
     return (
-        <ul className="ul">
+        <div>
             {products.map((product) => (
                 <Item product={product}/>
             ))}
-        </ul>
+        </div>
     )
 }
 
