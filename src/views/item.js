@@ -1,12 +1,11 @@
 import ItemDetailContainer from "../components/ItemDetailContainer";
-import NavBar from "../components/NavBar";
+import { Layout } from "../components/Layout";
 
 const ItemView = () => {
     return (
-        <div className='Main'>
-            <NavBar/>
+        <Layout>
             <ItemDetailContainer />
-        </div>
+        </Layout>
     )
 }
 

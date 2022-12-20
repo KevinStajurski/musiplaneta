@@ -1,16 +1,15 @@
 import './App.css'
-import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
-import {cartContext} from "./context/cartContext"
+import { cartContext } from './context/cartContext'
+import { Layout } from './components/Layout'
 
 
 export function App() {
   return (
     <cartContext.Provider value={[]}>
-      <div className='Main'>
-        <NavBar/>
+      <Layout>
         <ItemListContainer className="Container"/>
-      </div>
+      </Layout>
     </cartContext.Provider>
   )
-} 
+}
