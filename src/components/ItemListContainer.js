@@ -1,15 +1,22 @@
 import '../App.css' 
 import ItemList from './ItemList'
-import {getProducts} from "../data/products"
 import { useState,useEffect } from 'react';
+import {getDocs, getFirestore, collection} from "firebase/firestore"
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([]);
-    useEffect(() => {
-        getProducts().then((products) => {
-        setProducts(products);
-        });
-    }, [])
+
+    useEffect(()=>{
+        const db = getFirestore()
+        const itemsCollection = collection(db, "items")
+        getDocs(itemsCollection).then((snapshot) => {
+            const products = snapshot.docs.map((doc) => ({
+                id: doc.id,
+                ...doc.data()
+            }))
+            setProducts(products)
+        })
+    },[])
 
     return(
         <div>
