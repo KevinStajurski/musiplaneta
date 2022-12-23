@@ -12,10 +12,10 @@ const ItemDetailContainer = () => {
         const itemRef = doc(db, "items", id)
         getDoc(itemRef).then((snapshot)=>{
             if (snapshot.exists()) {
-                setProducto(snapshot.data())
+                setProducto({id, ...snapshot.data()})
             }
         })
-    },[id])
+    },[])
 
     return <ItemDetail producto={producto}/>
 }
