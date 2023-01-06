@@ -10,7 +10,7 @@ export const ItemCount = ({count, handleCount, handleAdd}) => {
         <button onClick={() => handleCount("mas")}>
             +
         </button>
-        <button onClick={()=>handleAdd}>
+        <button onClick={() => handleAdd()}>
             Agregar al carrito
         </button>
         </div>
