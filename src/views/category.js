@@ -23,10 +23,12 @@ const CategoryView = () => {
     const filtrados = products.filter((product) => product.categoria === category)
     return (
         <Layout>
-                <h1 className="category">{category.toUpperCase()}</h1>
-            <div className="containerDiv">
-                {filtrados.map((product) => (<Item product={product}/>))}
-            </div>
+                <div className="a">
+                    <h1 className="category">{category.toUpperCase()}</h1>
+                    <div className="containerDiv">
+                        {filtrados.map((product) => (<Item product={product}/>))}
+                    </div>
+                </div>
         </Layout>
     )
 }
