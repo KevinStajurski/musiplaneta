@@ -1,5 +1,8 @@
 import {ItemCount} from './ItemCount'
+import {useContext} from "react"
+import {Context} from "../context/cartContext"
 const ItemDetail = ({producto, count, setCount, currentStock, setCurrentStock, maxQuantity}) => {
+    const { addItem, isInCart } = useContext(Context)
     function handleCount(type) {
         if (type === "mas" && count < maxQuantity) setCount(count + 1)
         if (type === "menos" && count > 1) setCount(count - 1)
@@ -7,7 +10,10 @@ const ItemDetail = ({producto, count, setCount, currentStock, setCurrentStock, m
 
     function handleAdd() {
         if (currentStock < count) alert ("No hay mas stock")
-        else setCurrentStock (currentStock - count)
+        else {
+            setCurrentStock (currentStock - count)
+            addItem (producto, count)
+        }
     }
 
     return(

@@ -59,3 +59,8 @@
 .nombreProducto {
   font-size: 1.5rem;
 }
+
+.footer {
+  text-align: center;
+  background-color: #e9e9ed;
+}
