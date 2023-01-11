@@ -4,17 +4,12 @@
   padding: 0;
 }
 
-.Main {
-  background-color: #808080;
-  height: 100vh;
-  overflow:scroll;
-}
-
 .NavBar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #e9e9ed;
+  height: 10vh;
 }
 
 .Icon {
@@ -30,19 +25,16 @@
   width: 10rem;
 }
 
-.divProd {
+.itemDiv {
   display: inline-block;
-  margin: 2rem;
   padding: 1rem;
   background-color: white;
   height: 20rem;
-  width: 20rem;
+  width: 15rem;
   text-align: center;
 }
 
 .detalleProducto {
-  height: 30rem;
-  width: auto;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -63,4 +55,22 @@
 .footer {
   text-align: center;
   background-color: #e9e9ed;
+  height: 7vh;
+}
+
+.containerDiv {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.Main {
+  background-color: #808080;
+}
+
+.category {
+  display: block;
+  margin: 1rem;
 }

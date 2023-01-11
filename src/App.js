@@ -7,9 +7,9 @@ import { Layout } from './components/Layout'
 export function App() {
   return (
     <CartContextProvider>
-      <Layout>
-        <ItemListContainer className="Container"/>
-      </Layout>
+        <Layout>
+          <ItemListContainer/>
+        </Layout>
     </CartContextProvider>
   )
 }

@@ -3,11 +3,9 @@ import Footer from "./Footer"
 
 export const Layout = ({children}) => {
     return (
-        <div className='Main'>
-            <main>
-                <NavBar/>
-                {children}
-            </main>
+        <div className="Main">
+            <NavBar/>
+            {children}
             <Footer/>
         </div>
     )
